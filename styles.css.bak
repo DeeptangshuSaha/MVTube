@@ -2,5 +2,5 @@ body {
 	background-color: rgb(43,47,48);
 h1 {
 	text-align: center;
-	color: ;
+	color: #ff0000;
 }
