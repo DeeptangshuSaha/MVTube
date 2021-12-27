@@ -1,6 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Vujahday+Script&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #262840;
+}
 body {
-	background-color: rgb(43,47,48);
-h1 {
+	background-color:#ffffff;
+}
+.logo {
+	padding: 30px;
+	cursor: pointer;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration:none;
+}
+
+.nav__links li a:hover {
+	color: #cb2bd6;
+}
+nav {
+	/*background-color: rgb(43,47,48);*/
+	background-color: black;
+	border: 50px 50px;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	position: relative;
+	left: 250px;
+}
+
+header p a {
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+header p a:hover{
+	color: #cb2bd6;
+}
+
+li, a, button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #434be7;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(67,75,231,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(67,75,231,0.8);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*padding: 30px 10%;*/
+}
+header p {
+	position: relative;
+	right: 240px;
+	text-align: left;
+	top: auto;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	padding-bottom: 0px;
+	color: #434be7;
+}
+
+.theb {
+	background-image: url("img/img1.jpg");
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.theb h4 {
+	color: white;
 	text-align: center;
-	color: #ff0000;
+	padding: 0px;
+	font-family: "Vujahday", sans-serif;
+	margin: 20px 0;
+	background-color: rgba(0,0,0,0);
+	position: relative;
+	top: 50px;
 }
