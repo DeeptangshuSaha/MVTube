@@ -92,7 +92,7 @@ header p {
 }
 
 .theb {
-	background-image: url("img/img1.jpg");
+	/*background-image: url("img/img1.jpg");*/
 	height: 600px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -150,9 +150,9 @@ header p {
 	}
 	
 	.theb {
-		height: 1155px;
+		height: 892px;
 		width: 412px;
-		background-image: url("./img/img2.jpg");
+		/*background-image: url("./img/img2.jpg");*/
 	}
 	
     .theb h4{
