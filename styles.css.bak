@@ -34,8 +34,8 @@ nav {
 	border: 50px 50px;
 	font-family: "Montserrat", sans-serif;
 	text-decoration: none;
-	position: relative;
-	left: 230px;
+	/*position: relative;*/
+	/*left: 230px;*/
 }
 
 header p a {
@@ -59,7 +59,7 @@ li, a, button{
 
 button {
 	padding: 9px 25px;
-	background-color: rgba(67,75,231,0.8);
+	background-color: rgba(67,75,231,0.6);
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-	background-color: rgba(67,75,231,0.6);
+	background-color: rgba(67,75,231,0.4);
 }
 
 header {
@@ -75,10 +75,11 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	/*padding: 30px 10%;*/
+	/*width: 30%;*/
 }
 header p {
 	position: relative;
-	right: 230px;
+	right: 400px;
 	text-align: left;
 	top: auto;
 	font-family: "Montserrat", sans-serif;
@@ -106,3 +107,69 @@ header p {
 	position: relative;
 	top: 50px;
 }
+
+.burger{
+	display: none;
+}
+
+.burger div {
+	width: 25px;
+	height: 3px;
+	background-color: #434be7;
+	margin: 5px;
+}
+
+@media screen and (max-width:768px) {
+	body{
+		overflow-x: hidden;
+	}
+	
+	.nav__links{
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+		justify-content: space-around;
+	}
+	
+	.nav__links li {
+		opacity: 0;
+	}
+	
+	/*.theb {
+		height: 800px;*/
+	}
+	
+    .theb h4{
+		display: none;
+	}
+	
+	header {
+		padding-bottom: 20px;
+	}
+	
+	header p {
+		position: relative;
+		left: 140px;
+		text-align: center;
+		top: 2vh;
+		align-items: center;
+		background-color: #262840;
+	}
+	
+	.logo {
+		display: none;
+	}
+	
+	.burger {
+		margin: 10px;
+		display: block;
+	}
+}
+	
+	
