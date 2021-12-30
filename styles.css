@@ -144,7 +144,8 @@ header p {
 	}
 	
 	.nav__links li {
-		opacity: 0;
+		opacity: 1;
+		justify-content: space-between;
 	}
 	
 	/*.theb {
