@@ -16,16 +16,18 @@
 			<li><a href="#">Fav Games</a></li>
 			<li><a href="#">Social Media</a></li>
 		</ul>
-		<div class="burger">
+		<div class="burger toggle">
 			<div class="line1"></div>
 			<div class="line2"></div>
 			<div class="line3"></div>
 		</div>
 		</nav>
-		<a class="cta" href="#"><button>Contact</button></a>
+		<!--a class="cta" href="#"><button>Contact</button></a-->
 	</header>
 	<div class='theb'>
 		<h4>This is my world.<br>I dare you to create yours</h4>
 	</div>
+	
+	<script src="app.js"></script>
 	</body>
 </html>
