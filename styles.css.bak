@@ -12,8 +12,10 @@ body {
 	background-color:#ffffff;
 }
 .logo {
-	padding-left: 30px;
+	padding-top: 10px;
 	cursor: pointer;
+	height: 70px;
+	width: 100px;
 }
 
 .nav__links li {
@@ -76,20 +78,21 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	top: 50;
 	/*padding: 30px 10%;*/
 	/*width: 30%;*/
 }
-header p {
+/*header p {
 	position: relative;
-	right: 400px;
+	right: 30px;
 	text-align: left;
 	top: auto;
 	font-family: "Montserrat", sans-serif;
 	font-size: 20px;
 	text-decoration: none;
-	padding-bottom: 0px;
 	color: #434be7;
-}
+}*/
 
 .theb {
 	/*background-image: url("img/img1.jpg");*/
@@ -113,6 +116,7 @@ header p {
 }
 
 .burger{
+	top: 5px;
 	display: none;
 	cursor: pointer;
 }
@@ -149,8 +153,8 @@ header p {
 	}
 	
 	/*.theb {
-		height: 800px;*/
-	}
+		height: 800px;
+	}*/
 	
 	.theb {
 		height: 892px;
@@ -163,12 +167,16 @@ header p {
 	}
 	
 	header {
-		padding-bottom: 35px;
+		position: fixed;
+		width: 1536px;
+		padding-bottom: 5px;
 	}
 	
 	header p {
-		position: relative;
-		left: 20px;
+		position: fixed;
+		width: 220px;
+		height: 44px;
+		left: 25%;
 		letter-spacing: 30%;
 		text-align: center;
 		top: 2vh;
@@ -177,7 +185,6 @@ header p {
 	}
 	
 	.logo {
-		display: none;
 	}
 	
 	.burger {
