@@ -113,6 +113,7 @@ header p {
 }
 
 .burger{
+	top: 5px;
 	display: none;
 	cursor: pointer;
 }
