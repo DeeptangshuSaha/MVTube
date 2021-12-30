@@ -10,13 +10,14 @@ body {
 	background-color:#ffffff;
 }
 .logo {
-	padding: 30px;
+	padding-left: 30px;
 	cursor: pointer;
 }
 
 .nav__links li {
 	display: inline-block;
 	padding: 0px 10px;
+	letter-spacing: 2px;
 }
 
 .nav__links li a {
@@ -34,7 +35,7 @@ nav {
 	font-family: "Montserrat", sans-serif;
 	text-decoration: none;
 	position: relative;
-	left: 250px;
+	left: 230px;
 }
 
 header p a {
@@ -42,6 +43,7 @@ header p a {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	font-size: 30px;
+	letter-spacing: 5px;
 }
 
 header p a:hover{
@@ -57,7 +59,7 @@ li, a, button{
 
 button {
 	padding: 9px 25px;
-	background-color: rgba(67,75,231,1);
+	background-color: rgba(67,75,231,0.8);
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
@@ -65,7 +67,7 @@ button {
 }
 
 button:hover {
-	background-color: rgba(67,75,231,0.8);
+	background-color: rgba(67,75,231,0.6);
 }
 
 header {
@@ -76,7 +78,7 @@ header {
 }
 header p {
 	position: relative;
-	right: 240px;
+	right: 230px;
 	text-align: left;
 	top: auto;
 	font-family: "Montserrat", sans-serif;
