@@ -197,11 +197,25 @@ header {
 	.burger {
 		float: right;
 		display: block;
+		height: 44px;
+		width: 50px;
 	}
 
-	.burger .line1 .line2 .line3 {
-
+	.burger .line1 {
+		width: 44px;
+		padding: 3px;
 	}
+
+	.burger .line2 {
+		width: 44px;
+		padding: 3px;
+	}
+
+	.burger .line3 {
+		width: 44px;
+		padding: 3px;
+	}
+
 
 	/*.nav__active {
 		transform: translateX(0%);
