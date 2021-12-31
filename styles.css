@@ -160,7 +160,7 @@ header {
 	img {
 		position: relative;
 		left: 10px;
-		height: 34px;
+		height: 54px;
 	}
 
 	.container {
@@ -174,7 +174,11 @@ header {
 	
 	header {
 		width: 980px;
-		padding: 0px;
+		padding: 50px 50px;
+	}
+
+	.left-corner {
+		padding: 0px 16px;
 	}
 	/*.theb {
 		height: 800px;
@@ -193,6 +197,10 @@ header {
 	.burger {
 		float: right;
 		display: block;
+	}
+
+	.burger .line1 .line2 .line3 {
+
 	}
 
 	/*.nav__active {
