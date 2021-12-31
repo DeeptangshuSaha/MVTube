@@ -134,7 +134,7 @@ header {
 	transition: all 0.3s ease;
 }
 
-@media screen and (max-width:460px) {
+@media only screen and (max-width:1023px) {
 	body{
 		overflow-x: hidden;
 	}
@@ -164,6 +164,7 @@ header {
 	}
 
 	.container {
+		height: 56px;
 		padding: 0px;
 	}
 
@@ -172,7 +173,8 @@ header {
 	}
 	
 	header {
-		padding: 10px;
+		width: 320px;
+		padding: 0px;
 	}
 	/*.theb {
 		height: 800px;
@@ -189,6 +191,7 @@ header {
 	}*/
 			
 	.burger {
+		float: right;
 		display: block;
 	}
 
