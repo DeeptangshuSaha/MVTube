@@ -8,8 +8,10 @@
 	</head>
 	<body>
 	<header>
-		<img  class="logo" src="img/t_icon.svg" alt="logo">
-		<p><a href="#">TSUKIKAGE</a></p>
+		<div class="left-corner">
+		<img src="img/t_icon.svg" alt="logo">
+		<a href="#" class="logo" >SUKIKAGE</a>
+		</div>
 		<nav>
 		<ul class="nav__links">
 			<li><a href="#">Profile</a></li>
@@ -24,9 +26,9 @@
 		</nav>
 		<!--a class="cta" href="#"><button>Contact</button></a-->
 	</header>
-	<div class='theb'>
+	<section class='theb'>
 		<h4>This is my world.<br>I dare you to create yours</h4>
-	</div>
+	</section>
 	
 	<script src="app.js"></script>
 	</body>
