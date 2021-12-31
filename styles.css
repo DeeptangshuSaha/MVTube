@@ -31,39 +31,6 @@ img {
 	width: 48px;
 }
 
-/*.nav__links li {
-	display: inline-block;
-	padding: 0px 10px;
-	letter-spacing: 2px;
-}
-
-.nav__links li a {
-	transition: all 0.3s ease 0s;
-	text-decoration:none;
-}
-
-.nav__links li a:hover {
-	color: #cb2bd6;
-}*/
-/*
-nav {
-	/*background-color: rgb(43,47,48);
-	background-color: #262840;
-	border: 50px 50px;
-	font-family: "Montserrat", sans-serif;
-	text-decoration: none;
-	/*position: relative;
-	/*left: 230px;
-}*/
-
-/*header p a {
-	text-decoration: none;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	font-size: 30px;
-	letter-spacing: 5px;
-}*/
-
 header ul {
     position: relative;
     display: flex;
@@ -121,7 +88,7 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 100000;
-	/*padding: 40px 100px;*/
+	padding-top: 10px;
 	transition: 0.6s;
 }
 /*header p {
