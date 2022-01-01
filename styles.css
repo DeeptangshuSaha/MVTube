@@ -223,7 +223,7 @@ header {
 
 	.nav__active {
 		width: 40%;
-		height: 90vh;
+		height: 92vh;
 		top: 8vh;
 		transform: translateX(0%);
 	}
