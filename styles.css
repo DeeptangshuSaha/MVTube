@@ -126,8 +126,8 @@ header {
 	.nav__links{
 		position: absolute;
 		right: 0px;
-		height: 75vh;
-		top: 0vh;
+		height: 92vh;
+		top: 8vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -221,6 +221,8 @@ header {
 
 
 	.nav__active {
+		height: 80vh;
+		top: 6vh;
 		transform: translateX(0%);
 	}
 }
