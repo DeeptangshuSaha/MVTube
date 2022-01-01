@@ -164,8 +164,8 @@ header {
 	}
 
 	.container {
-		height: 56px;
-		padding: 10px;
+		height: 86px;
+		/*padding: 10px;*/
 	}
 
 	header ul {
@@ -174,10 +174,12 @@ header {
 	
 	header {
 		width: 980px;
+		height: 10%;
 		padding: 50px 50px;
 	}
 
 	.left-corner {
+		height: 110%;
 		padding: 0px 16px;
 	}
 	/*.theb {
@@ -204,21 +206,21 @@ header {
 	}
 
 	.burger .line1 {
-		width: 44px;
-		margin: 10px;
-		height: 5px;
+		width: 50px;
+		margin: 5px 0px;
+		height: 8px;
 	}
 
 	.burger .line2 {
-		width: 44px;
-		margin: 10px;
-		height: 5px;
+		width: 50px;
+		margin: 5px 0px;
+		height: 8px;
 	}
 
 	.burger .line3 {
-		width: 44px;
-		margin: 10px;
-		height: 5px;
+		width: 50px;
+		margin: 5px 0px;
+		height: 8px;
 	}
 
 
