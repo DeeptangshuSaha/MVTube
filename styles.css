@@ -160,11 +160,12 @@ header {
 	img {
 		position: relative;
 		left: 10px;
-		height: 74px;
+		height: 100%;
 	}
 
 	.container {
 		height: 86px;
+		padding: 0px;
 		/*padding: 10px;*/
 	}
 
@@ -175,11 +176,11 @@ header {
 	header {
 		width: 980px;
 		height: 10%;
-		padding: 50px 50px;
+		padding: 50px 30px;
 	}
 
 	.left-corner {
-		height: 110%;
+		height: 100%;
 		padding: 0px 16px;
 	}
 	/*.theb {
