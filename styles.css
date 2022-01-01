@@ -118,7 +118,7 @@ header {
 	/*transition: all 0.3s ease;*/
 }
 
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:460px) {
 	body{
 		overflow-x: hidden;
 	}
@@ -174,7 +174,7 @@ header {
 		height: 50%;
 		padding: 0px 5px;
 	}
-	
+
 	.theb h4 {
 		color: white;
 		text-align: center;
