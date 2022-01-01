@@ -140,7 +140,6 @@ header {
 	
 	.nav__links li {
 		opacity: 1;
-		/*justify-content: space-around;*/
 	}
 
 	img {
@@ -175,21 +174,20 @@ header {
 		height: 50%;
 		padding: 0px 5px;
 	}
-
-	/*.theb {
-		height: 800px;
+	
+	.theb h4 {
+		color: white;
+		text-align: center;
+		padding: 0px;
+		font-size: 50px;
+		font-family: "Nine Tsuki", sans-serif;
+		letter-spacing: 2px;
+		margin: 20px 0;
+		color: #434be7;
+		position: relative;
+		top: 30%;
 	}
 	
-	.theb {
-		height: 892px;
-		width: 412px;
-		/*background-image: url("./img/img2.jpg");
-	}
-	
-    .theb h4{
-		display: none;
-	}*/
-			
 	.burger {
 		float: right;
 		display: block;
