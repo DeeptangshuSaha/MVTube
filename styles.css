@@ -165,7 +165,7 @@ header {
 
 	.container {
 		height: 56px;
-		padding: 0px;
+		padding: 10px;
 	}
 
 	header ul {
@@ -199,21 +199,26 @@ header {
 		display: block;
 		height: 44px;
 		width: 50px;
+		margin-top: 1px;
+		margin-bottom: 1px;
 	}
 
 	.burger .line1 {
 		width: 44px;
-		padding: 3px;
+		margin: 10px;
+		height: 5px;
 	}
 
 	.burger .line2 {
 		width: 44px;
-		padding: 3px;
+		margin: 10px;
+		height: 5px;
 	}
 
 	.burger .line3 {
 		width: 44px;
-		padding: 3px;
+		margin: 10px;
+		height: 5px;
 	}
 
 
