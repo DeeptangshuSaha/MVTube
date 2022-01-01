@@ -127,7 +127,7 @@ header {
 		position: absolute;
 		right: 0px;
 		height: 75vh;
-		top: 6vh;
+		top: 0vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
