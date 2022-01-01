@@ -15,12 +15,6 @@ body {
 header .logo {
     position: relative;
     bottom: 12px;
-    font-weight: 700;
-    /*color: #fff;*/
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     transition: 0.6s;
 }
 
@@ -65,19 +59,6 @@ li, a, button{
 	color: #434be7;
 }
 
-button {
-	padding: 9px 25px;
-	background-color: rgba(67,75,231,0.6);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
-}
-
-button:hover {
-	background-color: rgba(67,75,231,0.4);
-}
-
 header {
 	background-color: #262840;
 	display: flex;
@@ -103,7 +84,7 @@ header {
 
 .theb {
 	background: url("img/img1.jpg");
-	width: 100%;
+	/*width: 100%;*/
 	height: 100vh;
 	position: relative;
 	/*background-repeat: no-repeat;*/
@@ -114,11 +95,13 @@ header {
 	color: white;
 	text-align: center;
 	padding: 0px;
-	font-family: "Vujahday", sans-serif;
+	font-size: 50px;
+	font-family: "Nine Tsuki", sans-serif;
+	letter-spacing: 2px;
 	margin: 20px 0;
-	background-color: rgba(0,0,0,0);
+	color: #434be7;
 	position: relative;
-	top: 50px;
+	top: 30%;
 }
 
 .burger{
@@ -132,7 +115,7 @@ header {
 	height: 3px;
 	background-color: #434be7;
 	margin: 5px;
-	transition: all 0.3s ease;
+	/*transition: all 0.3s ease;*/
 }
 
 @media only screen and (max-width:1023px) {
@@ -148,14 +131,16 @@ header {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 100%;
+		justify-content: space-around;
+		width: 50%;
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
+		background-color: #262840;
 	}
 	
 	.nav__links li {
 		opacity: 1;
-		justify-content: space-between;
+		/*justify-content: space-around;*/
 	}
 
 	img {
@@ -216,21 +201,24 @@ header {
 	}
 
 	.burger .line1 {
-		width: 100%;
+		width: 98%;
 		margin: 5px 0px;
 		height: 5px;
+		color: #434be7;
 	}
 
 	.burger .line2 {
-		width: 100%;
+		width: 98%;
 		margin: 5px 0px;
 		height: 5px;
+		color: #434be7;
 	}
 
 	.burger .line3 {
-		width: 100%;
+		width: 98%;
 		margin: 5px 0px;
 		height: 5px;
+		color: #434be7;
 	}
 
 
@@ -250,7 +238,7 @@ header {
 }
 
 .toggle .line1 {
-	transform: rotate(-45deg) translate(-5px,6px);
+	transform: rotate(-45deg) translate(-5px,9px);
 }
 
 .toggle .line2 {
@@ -258,5 +246,5 @@ header {
 }
 
 .toggle .line3 {
-	transform: rotate(45deg) translate(-5px,-6px);
+	transform: rotate(45deg) translate(-5px,-9px);
 }
