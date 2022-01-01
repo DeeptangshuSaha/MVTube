@@ -16,6 +16,7 @@ header .logo {
     position: relative;
     bottom: 12px;
     transition: 0.6s;
+	z-index: 100000;
 }
 
 img {
