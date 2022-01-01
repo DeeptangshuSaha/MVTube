@@ -96,10 +96,10 @@ header {
 	text-align: center;
 	padding: 0px;
 	font-size: 50px;
-	font-family: "Nine Tsuki", sans-serif;
+	font-family: "Courier New", sans-serif;
 	letter-spacing: 2px;
 	margin: 20px 0;
-	color: #434be7;
+	color: #282e8d;
 	position: relative;
 	top: 30%;
 }
@@ -180,10 +180,10 @@ header {
 		text-align: center;
 		padding: 0px;
 		font-size: 50px;
-		font-family: "Nine Tsuki", sans-serif;
+		font-family: "Courier New", sans-serif;
 		letter-spacing: 2px;
 		margin: 20px 0;
-		color: #434be7;
+		color: #282e8dff;
 		position: relative;
 		top: 30%;
 	}
