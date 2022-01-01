@@ -204,7 +204,6 @@ header {
 	}
 
 	.burger .line1 {
-<<<<<<< HEAD
 		width: 44px;
 		margin: 10px;
 		height: 5px;
@@ -220,20 +219,6 @@ header {
 		width: 44px;
 		margin: 10px;
 		height: 5px;
-=======
-		width: 100%;
-		margin: 3px;
-	}
-
-	.burger .line2 {
-		width: 100%;
-		margin: 3px;
-	}
-
-	.burger .line3 {
-		width: 100%;
-		margin: 3px;
->>>>>>> e2e52f5953650f72ec1515f93f17393e2aa314a5
 	}
 
 
