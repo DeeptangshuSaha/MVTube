@@ -4,11 +4,14 @@
 <svg
    version="1.1"
    id="svg9"
-   width="134.23199"
-   height="33.001999"
-   viewBox="0 0 134.23199 33.002"
+   width="1137.14"
+   height="278.88815"
+   viewBox="0 0 1137.14 278.88816"
    sodipodi:docname="t_icon_long.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:export-filename="D:\Programming\Git\MVTube\img\t_icon_long.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -51,14 +54,14 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.30234375"
-     inkscape:cx="783.87597"
-     inkscape:cy="-147.18346"
-     inkscape:window-width="995"
-     inkscape:window-height="981"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.209375"
+     inkscape:cx="480.82687"
+     inkscape:cy="214.57364"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g15"
      width="134.23199px"
      height="33.002px" />
@@ -66,11 +69,14 @@
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g15"
-     transform="translate(14.770326,34.097365)">
+     transform="translate(515.8055,156.27198)">
     <g
        id="g102688"
-       transform="translate(9.4603624,-39.592559)"
-       style="fill:#7662dd;fill-opacity:1">
+       transform="matrix(8.4251635,0,0,8.4251635,-312.08005,-208.6238)"
+       style="fill:#7662dd;fill-opacity:1"
+       inkscape:export-filename="D:\Programming\Git\MVTube\img\t_icon_long.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          id="g3214"
          transform="translate(1.4617194,64.900342)">
